@@ -1,0 +1,49 @@
+{
+  "name": "init-tpl",
+  "version": "1.0.5",
+  "description": "a plugin for quickly creating templates",
+  "scripts": {
+    "build": "rollup -c rollup.config.js",
+    "watch": "rollup -c -w rollup.config.js"
+  },
+  "files": [
+    "bin",
+    "dist",
+    "images"
+  ],
+  "keywords": ["template", "create", "plugin"],
+  "author": "lihh",
+  "bin": {
+    "init-tpl": "bin/www.js"
+  },
+  "homepage": "https://github.com/a572251465/init-tpl",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/a572251465/init-tpl.git"
+  },
+  "bugs": {
+    "url": "https://github.com/a572251465/init-tpl/issues"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.18.13",
+    "@babel/preset-env": "^7.18.10",
+    "@rollup/plugin-babel": "^5.3.1",
+    "@rollup/plugin-commonjs": "^22.0.2",
+    "@rollup/plugin-node-resolve": "^13.3.0",
+    "@rollup/plugin-typescript": "^8.4.0",
+    "@types/fs-extra": "^9.0.13",
+    "@types/logger": "^0.0.1",
+    "@types/prompts": "^2.0.14",
+    "eslint": "^8.23.0",
+    "prettier": "^2.7.1",
+    "rollup": "^2.79.0",
+    "rollup-plugin-del": "^1.0.1",
+    "tslib": "^2.4.0",
+    "typescript": "^4.8.2"
+  },
+  "dependencies": {
+    "fs-extra": "^10.1.0",
+    "prompts": "^2.4.2"
+  }
+}
